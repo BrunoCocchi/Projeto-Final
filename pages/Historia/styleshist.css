@@ -1,0 +1,251 @@
+ @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:darkgray;
+  }     
+  
+  header {
+    background-color: #ff3b3f;
+    color: #f6e214;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header a {
+    color: #f6e214;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  
+  header input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  
+  .menus {
+    float: left;
+    margin-top: 10px;
+  }    
+  .banner {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .banner .banner-imagem {
+    width: 70%;
+    border: 20px double black;
+    margin-bottom: 40px ;
+    
+  }
+
+img {
+    border: 20px double black
+}
+
+ p {
+    font-family: 'Oxanium', cursive;
+    font-size: 17px;
+    font-weight: bolder;
+  }
+
+  h1 {
+    font-family: 'Instrument Serif', serif;
+    font-weight: bolder;
+    border: 5px double black;
+    padding: 30px;
+  }
+
+.livro__1 {
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+.livro__1 .livro__1__title {
+    font-weight: bold;
+}
+
+.historia__livro__1 {
+    gap: 20px;
+    display: flex;
+    align-items:center;
+
+}
+
+
+.livro__1 .capa__livro__1 {
+    width: 18%;
+    border-radius: 2%;
+}
+
+
+
+.livro__1 .livro__1__descricao {
+    font-weight: 100px;
+}
+
+.livro__2 {
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+.historia__livro__2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.livro__2 .capa__livro__2 {
+    width: 30%;
+    border-radius: 2%;
+}
+
+.livro__2 .livro__2__title {
+    font-weight: bold;
+}
+
+.livro__2 .livro__2__descricao {
+    font-weight: 100px;
+}
+
+.livro__3 {
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+.historia__livro__3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.livro__3 .capa__livro__3 {
+    width: 30%;
+    border-radius: 2%;
+}
+
+.livro__3 .livro__3__title {
+    font-weight: bold;
+}
+
+.livro__3 .livro__3__descricao {
+    font-weight: 100px;
+}
+
+.livro__4 {
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+.historia__livro__4 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.livro__4 .capa__livro__4 {
+    width: 30%;
+    border-radius: 2%;
+}
+
+.livro__4 .livro__4__title {
+    font-weight: bold;
+}
+
+.livro__4 .livro__4__descricao {
+    font-weight: 100px;
+}
+
+.livro__5 {
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+.historia__livro__5 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.livro__5 .capa__livro__5 {
+    width: 30%;
+    border-radius: 2%;
+}
+
+.livro__5 .livro__5__title {
+    font-weight: bold;
+}
+
+.livro__5 .livro__5__descricao {
+    font-weight: 100px;
+}
+
+.livro__6 {
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+.historia__livro__6 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.livro__6 .capa__livro__6 {
+    width: 30%;
+    border-radius: 2%;
+}
+
+.livro__6 .livro__6__title {
+    font-weight: bold;
+}
+
+.livro__6 .livro__6__descricao {
+    font-weight: 100px;
+}
+
+.livro__7 {
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+.historia__livro__7 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.livro__7 .capa__livro__7 {
+    width: 30%;
+    border-radius: 2%;
+}
+
+.livro__7 .livro__7__title {
+    font-weight: bold;
+}
+
+.livro__7 .livro__7__descricao {
+    font-weight: 100px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  

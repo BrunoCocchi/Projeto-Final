@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:darkgray;
+  }
+  
+  /* Estiliza o cabeçalho com fundo vermelho e letras amarelas */
+  header {
+    background-color: #ff3b3f;
+    color: #f6e214;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estiliza os links no cabeçalho */
+  header a {
+    color: #f6e214;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+  }
+  
+  /* Estiliza o campo de pesquisa no cabeçalho */
+  header input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    width: 200px;
+  }
+
+.inicio {
+    width: 100%;
+    height: 70vh;
+    background: url("./imageshog/capa-hogwarts.jpg") center center/cover no-repeat;
+    border: 2px solid black;
+}
+
+
+h1 {
+    font-family: 'Instrument Serif', serif;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Instrument Serif', serif;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Oxanium', cursive;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+.banner {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .banner .banner-imagem {
+    width: 70%;
+    border: 20px double black;
+  }
+
+.brasao {
+    display: flex;
+    justify-content: center;
+}
+
+.hogwarts {
+    background-color:  white;
+    margin: 100px;
+    padding: 100px; 
+    
+    border: 20px double black;
+}
+
+.hogwarts .titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 60px;
+}
+
+.hogwarts .subtitulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.hogwarts .brasao {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.hogwarts .texto1 {
+    display: flex;
+    font-size: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px;
+}
+
+.hogwarts .salaoprincipal {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    align-items:self-end;
+    
+
+}
+
+.hogwarts .textsalaop {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px;
+    border: 20px double black;
+}
+
+.grifinoria {
+    background-color:white;
+    margin: 100px;
+    padding: 100px;
+    border: 20px double black;
+}
+
+.grifinoria .titleGrif {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+
+
+.grifinoria .brasaogrif {
+    display: flex;
+    justify-content: center;
+}
+
+.grifinoria .textGrif {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+.saibamais{
+    display: flex; 
+    justify-content: center;
+    margin-top: 50px
+    
+}
+
+.saiba-mais {
+
+    padding: 10px 20px;
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: yellow;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.sonserina {
+    background-color:white;
+    margin: 100px;
+    padding: 100px; 
+    border: 20px double black;
+}
+
+
+.lufalufa {
+    background-color:whitesmoke;
+    margin: 100px;
+    padding: 100px; 
+    border: 20px double black;
+}
+
+.corvinal {
+    background-color:white;
+    margin: 100px;
+    padding: 100px; 
+    border: 20px double black;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
