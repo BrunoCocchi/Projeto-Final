@@ -39,7 +39,9 @@ html, body {
     width: 200px;
   }
   
-  
+  .title {
+    margin-top: 80px;
+  }
   
   .menus {
     float: left;
@@ -74,14 +76,20 @@ h1 {
   font-family: 'Instrument Serif', serif;
   font-weight: bolder;
   font-size: 60px;
-  margin-top: 90px;
+}
+
+.titulo {
+  border: 10px double black;
+}
+
+.feitico1 {
+  margin-bottom: 50px;
 }
 
 
 .paragrafo {
     display: flex;
     justify-content: center;
-    background-color: bisque;
     padding: 30px;
     border-radius: 40px;
     margin-left: 500px;
