@@ -12,7 +12,6 @@
         background-color:darkgray;
     }
     
-    /* Estiliza o cabeçalho com fundo vermelho e letras amarelas */
     header {
         background-color: #ff3b3f;
         color: #f6e214;
@@ -22,7 +21,6 @@
         align-items: center;
     }
     
-    /* Estiliza os links no cabeçalho */
     header a {
         color: #f6e214;
         text-decoration: none;
@@ -30,7 +28,6 @@
         margin-right: 20px;
     }
     
-    /* Estiliza o campo de pesquisa no cabeçalho */
     header input[type="text"] {
         padding: 5px;
         border: none;
