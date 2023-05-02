@@ -2,17 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
 body {
     font-family: Arial, sans-serif;
-    background-color:darkgrey
+    background-color:darkgrey;
+    
   }
 
-
-  
   header {
     background-color: #ff3b3f;
     color: #f6e214;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
   
@@ -26,7 +25,7 @@ body {
   header input[type="text"] {
     padding: 5px;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 16px;
     width: 200px;
   }
