@@ -20,6 +20,12 @@ xhr.onreadystatechange = () => {
         nomes.push(nome2)
         let nome3 = resultado[1].name;
         nomes.push(nome3)
+        let nome4 = resultado[30].name;
+        nomes.push(nome4)
+        let nome5 = resultado[7].name;
+        nomes.push(nome5)
+        let nome6 = resultado[16].name;
+        nomes.push(nome6)
         console.log(nomes)
         
         let item1 = document.createElement('h1')
@@ -36,6 +42,25 @@ xhr.onreadystatechange = () => {
         let itemdesc3 = document.createTextNode(nomes[2])
         item3.appendChild(itemdesc3)
         document.querySelector('.hermione__granger__title').appendChild(item3);
+        
+        let item4 = document.createElement('h1')
+        let itemdesc4 = document.createTextNode(nomes[3])
+        item4.appendChild(itemdesc4)
+        document.querySelector('.albus__dumbledore__title').appendChild(item4);
+
+        let item5 = document.createElement('h1')
+        let itemdesc5 = document.createTextNode(nomes[4])
+        item5.appendChild(itemdesc5)
+        document.querySelector('.severus__snape__title').appendChild(item5);
+
+        let item6 = document.createElement('h1')
+        let itemdesc6 = document.createTextNode(nomes[5])
+        item6.appendChild(itemdesc6)
+        document.querySelector('.voldemort__title').appendChild(item6);
+
+
+
+        
 
     }
 }   

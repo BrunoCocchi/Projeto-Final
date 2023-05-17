@@ -2,31 +2,52 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color:darkgray;
+    background-color:#02091C;
   }
   
-  header {
-    background-color: #ff3b3f;
-    color: #f6e214;
-    padding: 20px;
+  h3 {
+    color: gold;
+    font-size: 60px;
+    font-family: 'Harry Potter', sans-serif;
+    cursor: pointer;
+  }
+  
+  .menu {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
   }
   
-  header a {
-    color: #f6e214;
+  .menu ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+  
+  }
+  
+  .menu ul li a {
+    color: white;
     text-decoration: none;
-    font-size: 20px;
-    margin-right: 20px;
+    text-transform: uppercase;
   }
   
-  header input[type="text"] {
-    padding: 5px;
-    border: none;
-    border-radius: 3px;
-    font-size: 16px;
-    width: 200px;
+  .menu ul li::after {
+    background-color: gold;
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    transform: s;
+  }
+  
+  .menu ul li:hover::after {
+    width: 100%;
   }
 
 .inicio {
@@ -203,13 +224,13 @@ p {
 
 footer {
     text-align: center;
-    background-color: #333;
+    background-color: #242633;
     color: #fff;
     padding: 20px;
     margin-top: 50px;
+    margin-top: 400px;
   }
   footer p {
     margin: 0;
-    font-size: 14px;
+    font-size: 19px;
   }
-  

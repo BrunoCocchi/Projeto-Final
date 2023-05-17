@@ -52,3 +52,308 @@ h3 {
   .menu ul li:hover::after {
     width: 100%;
   }
+
+  .title {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    color: gold;
+    font-size: 25px;
+    font-family: 'Harry Potter', sans-serif;
+    cursor: pointer;
+  }
+
+  .imageback1 {
+    width: 99%;
+    height: 500px;
+    margin-top: 100px;
+    border: 10px double white;
+    background-image: url(../../img/imagespers/harryback.PNG);
+    opacity: 70%;
+  }
+
+  .harry__potter__title {
+    position: absolute;
+    color: gold;
+    top: 700px;
+    left: 300px;
+  }
+  
+
+  .harry__potter__imagem {
+    position: relative;
+    left: 45%;
+    margin-top: 100px;
+    width: 550px;
+    height: 500px;
+    background-image: url(../../img/imagespers/banner-harrypotter.webp);
+    border: 10px double white;
+    border-radius: 10px;
+  }
+
+
+  .paragrafo1 {
+    position: absolute;
+    width: 350px;
+    height: 280px;
+    background-color: wheat;
+    left: 650px;
+    bottom: -800px;
+  }
+
+  .harry__potter__descricao {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border: 15px double white;
+   }
+
+/*------------------------------------------------------------------------------------*/
+
+
+  .imageback2 {
+    width: 99%;
+    height: 500px;
+    margin-top: 100px;
+    border: 10px double white;
+    background-image: url(../../img/imagespers/ronyback.PNG);
+    opacity: 70%;
+    margin-top: 250px;
+  }
+
+  .rony__weasley__title {
+    position: absolute;
+    color: gold;
+    bottom: -1330px;
+    left: 300px;
+  }
+
+  .rony__weasley__imagem {
+    position: relative;
+    left: 45%;
+    margin-top: 100px;
+    width: 550px;
+    height: 500px;
+    background-image: url(../../img/imagespers/banner-ronweasley.PNG);
+    border: 10px double white;
+    border-radius: 10px;  
+    background-repeat: no-repeat;
+  }
+
+  .paragrafo2 {
+    position: absolute;
+    width: 350px;
+    height: 240px;
+    background-color: wheat;
+    left: 650px;
+    bottom: -2200px
+  }
+
+  .rony__weasley__descricao {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border: 15px double white;
+  }
+
+  /*------------------------------------------------------------------------------------*/
+
+  .imageback3 {
+    width: 99%;
+    height: 500px;
+    margin-top: 100px;
+    border: 10px double white;
+    background-image: url(../../img/imagespers/hermioneback.PNG);
+    opacity: 70%;
+    margin-top: 250px;
+  }
+
+  .hermione__granger__title {
+    position: absolute;
+    color: gold;
+    bottom: -2700 px;
+    left: 300px;
+  }
+
+  .hermione__granger__imagem {
+    position: relative;
+    left: 45%;
+    margin-top: 100px;
+    width: 550px;
+    height: 500px;
+    background-image: url(../../img/imagespers/banner-hermionegranger.png);
+    border: 10px double white;
+    border-radius: 10px;  
+    background-repeat: no-repeat;
+  }
+
+  .paragrafo3{
+    position: absolute;
+    width: 350px;
+    height: 280px;
+    background-color: wheat;
+    left: 650px;
+    bottom: -3550px
+  }
+
+  .hermione__granger__descricao {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border: 15px double white;
+  }
+
+  /*------------------------------------------------------------------------------------*/
+
+  .imageback4 {
+    width: 99%;
+    height: 500px;
+    margin-top: 100px;
+    border: 10px double white;
+    background-image: url(../../img/imagespers/albusback.PNG);
+    opacity: 70%;
+    margin-top: 250px;
+  }
+
+  .albus__dumbledore__title {
+    position: absolute;
+    color: gold;
+    bottom: -2700 px;
+    left: 300px;
+  }
+
+  .albus__dumbledore__imagem {
+    position: relative;
+    left: 45%;
+    margin-top: 100px;
+    width: 550px;
+    height: 500px;
+    background-image: url(../../img/imagespers/banner-albus.jpg);
+    border: 10px double white;
+    border-radius: 10px;  
+    background-repeat: no-repeat;
+  }
+
+  .paragrafo4{
+    position: absolute;
+    width: 350px;
+    height: 290px;
+    background-color: wheat;
+    left: 650px;
+    bottom: -5000px
+  }
+
+  .albus__dumbledore__descricao {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border: 15px double white;
+  }
+
+
+    /*------------------------------------------------------------------------------------*/
+
+    .imageback5 {
+      width: 99%;
+      height: 500px;
+      margin-top: 100px;
+      border: 10px double white;
+      background-image: url(../../img/imagespers/snapeback.PNG);
+      opacity: 70%;
+      margin-top: 250px;
+    }
+  
+    .severus__snape__title {
+      position: absolute;
+      color: gold;
+      bottom: -5500px;
+      left: 300px;
+    }
+  
+    .severus__snape__imagem {
+      position: relative;
+      left: 45%;
+      margin-top: 100px;
+      width: 550px;
+      height: 500px;
+      background-image: url(../../img/imagespers/severus.jpg);
+      border: 10px double white;
+      border-radius: 10px;  
+      background-repeat: no-repeat;
+    }
+  
+    .paragrafo5{
+      position: absolute;
+      width: 350px;
+      height: 265px;
+      background-color: wheat;
+      left: 650px;
+      bottom: -6400px
+    }
+  
+    .severus__snape__descricao {
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding: 10px;
+      border: 15px double white;
+    }
+
+/*------------------------------------------------------------------------------------*/
+
+.imageback6 {
+  width: 99%;
+  height: 500px;
+  margin-top: 100px;
+  border: 10px double white;
+  background-image: url(../../img/imagespers/voldemortback.PNG);
+  opacity: 70%;
+  margin-top: 250px;
+}
+
+.voldemort__title {
+  position: absolute;
+  color: gold;
+  bottom: -6850px;
+  left: 300px;
+}
+
+.voldemort__imagem {
+  position: relative;
+  left: 45%;
+  margin-top: 100px;
+  width: 550px;
+  height: 500px;
+  background-image: url(../../img/imagespers/voldemortbanner.jpg);
+  border: 10px double white;
+  border-radius: 10px;  
+  background-repeat: no-repeat;
+}
+
+.paragrafo6{
+  position: absolute;
+  width: 350px;
+  height: 240px;
+  background-color: wheat;
+  left: 650px;
+  bottom: -7750px
+}
+
+.voldemort__descricao {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  border: 15px double white;
+}
+
+footer {
+  text-align: center;
+  background-color: #242633;
+  color: #fff;
+  padding: 20px;
+  margin-top: 50px;
+  margin-top: 400px;
+}
+footer p {
+  margin: 0;
+  font-size: 19px;
+}
